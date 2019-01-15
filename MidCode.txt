@@ -1,0 +1,677 @@
+const char const_char_a = 'a' 
+const char const_char_b = 'b' 
+const char const_char_c = 'c' 
+const char const_char_A = 'A' 
+const int const_int_postive = 1 
+const int const_int_zero = 0 
+const int const_int_negtive = -1 
+const char const_char_num = '9' 
+const char const_char_underline = '_' 
+const char const_char_add = '+' 
+const char const_char_mul = '*' 
+var int int_global_var
+var char char_global_var
+array int sort [10]
+void testIfWhile()
+const int test_if_1 = 1 
+const int test_if_2 = 2 
+const char const_char_a = 'b' 
+const char const_char_b = 'a' 
+var int test_if_result
+var int loop_num
+test_if_result = 0
+loop_num = 0
+$t0 = const_char_a + 1
+$t1 = const_char_b + 1
+$t0 > $t1
+BZ $label0
+$label1 :
+test_if_result < 100
+BZ $label2
+$t2 = test_if_result + loop_num
+test_if_result = $t2
+$t3 = loop_num + 1
+loop_num = $t3
+goto $label1
+$label2 :
+$t4 = test_if_result - 100
+$t5 = $t4 * 3
+$t5 == 15
+BZ $label4
+$t6 = test_if_result * 10
+$t7 = 0 - $t6
+$t8 = 2 * loop_num
+$t9 = $t7 + $t8
+$t10 = $t9 + 117
+$t11 = $t10 - const_char_a
+test_if_result = $t11
+$t12 = loop_num - test_if_result
+$t13 = 10 * const_char_b
+$t14 = $t12 + $t13
+$t15 = $t14 - 100
+$t16 = $t15 + 42
+$t17 = $t16 + 34
+$t18 = 2 * test_if_result
+$t19 = $t17 + $t18
+loop_num = $t19
+goto $label3
+$label4 :
+$t20 = test_if_result * 4
+$t21 = 5 * loop_num
+$t22 = $t20 + $t21
+$t23 = $t22 + 24
+$t24 = $t23 - const_char_b
+$t25 = $t24 + 'c'
+test_if_result = $t25
+$t26 = 0 - loop_num
+$t27 = $t26 + test_if_result
+$t28 = 4 * const_char_b
+$t29 = $t27 + $t28
+$t30 = $t29 - 1653
+$t31 = $t30 + 453
+$t32 = $t31 + 555
+$t33 = 4 * test_if_result
+$t34 = $t32 - $t33
+loop_num = $t34
+$label3 :
+$label0 :
+printf  test_if_result
+printf  loop_num
+test_if_result = 0
+loop_num = 0
+$t35 = const_char_a + 1
+$t36 = const_char_b + 1
+$t35 >= $t36
+BZ $label5
+$label6 :
+test_if_result < 10
+BZ $label7
+loop_num > 2
+BZ $label8
+$t37 = test_if_result + loop_num
+test_if_result = $t37
+$label8 :
+$t38 = loop_num + 1
+loop_num = $t38
+$t39 = test_if_result / 2
+$t40 = $t39 * 2
+$t40 == test_if_result
+BZ $label9
+$t41 = loop_num + 1
+loop_num = $t41
+$label9 :
+goto $label6
+$label7 :
+$label5 :
+printf  test_if_result
+printf  loop_num
+test_if_result = 0
+loop_num = 0
+test_if_1 < test_if_2
+BZ $label10
+$label11 :
+test_if_result < 20
+BZ $label12
+$t42 = test_if_result / 2
+$t43 = $t42 * 2
+$t44 = test_if_result - $t43
+$t44 == 0
+BZ $label14
+$t45 = test_if_result + 1
+test_if_result = $t45
+goto $label13
+$label14 :
+$t44 == 1
+BZ $label15
+$t46 = test_if_result + loop_num
+test_if_result = $t46
+goto $label13
+$label15 :
+$label13 :
+$t47 = loop_num + 1
+loop_num = $t47
+goto $label11
+$label12 :
+$t48 = test_if_result / 2
+$t49 = $t48 * 2
+test_if_result == $t49
+BZ $label16
+$t50 = test_if_result * 7
+$t51 = 2 * loop_num
+$t52 = $t50 + $t51
+$t53 = $t52 + 99
+$t54 = $t53 - const_char_b
+$t55 = $t54 + 'g'
+test_if_result = $t55
+$t56 = 0 - loop_num
+$t57 = $t56 + test_if_result
+$t58 = 2 * const_char_b
+$t59 = $t57 + $t58
+$t60 = $t59 - 523
+$t61 = $t60 + 53
+$t62 = $t61 + 355
+$t63 = 2 * test_if_result
+$t64 = $t62 - $t63
+loop_num = $t64
+$label16 :
+$label10 :
+printf  test_if_result
+printf  loop_num
+test_if_2 <= test_if_1
+BZ $label17
+printf "2 <= 1" 
+$label17 :
+test_if_1 == test_if_2
+BZ $label18
+printf "1 == 2" 
+$label18 :
+test_if_result = 0
+loop_num = 0
+test_if_1 != test_if_2
+BZ $label19
+$t65 = loop_num * 2
+$t66 = test_if_result - $t65
+$t66 == 0
+BZ $label21
+$label22 :
+test_if_result < 30
+BZ $label23
+$t67 = test_if_result / 2
+$t68 = $t67 * 2
+$t69 = $t68 - test_if_result
+$t69 == -1
+BZ $label25
+$t70 = test_if_result + 1
+test_if_result = $t70
+goto $label24
+$label25 :
+$t69 == 0
+BZ $label26
+$t71 = test_if_result + loop_num
+test_if_result = $t71
+goto $label24
+$label26 :
+$label24 :
+$t72 = loop_num + 1
+loop_num = $t72
+goto $label22
+$label23 :
+goto $label20
+$label21 :
+$t73 = 0 - 1
+test_if_result = $t73
+$t74 = 0 - 1
+loop_num = $t74
+$label20 :
+$label19 :
+printf  test_if_result
+printf  loop_num
+$t75 = test_if_1 - test_if_1
+$t75 != 0
+BZ $label27
+printf "1 - 1 = true" 
+$label27 :
+$t76 = 0 - 1
+int_global_var = $t76
+char_global_var = 'a'
+ret
+void testSwitchCase()
+para int test_switch_int
+para char test_switch_char
+test_switch_int == -1
+BZ $label29
+$label30 :
+$t77 = test_switch_int * 20
+$t78 = 30 / 5
+$t79 = $t77 + $t78
+$t79 < 10
+BZ $label31
+test_switch_int <= 0
+BZ $label32
+$t80 = test_switch_int + 1
+test_switch_int = $t80
+$label32 :
+goto $label30
+$label31 :
+goto $label28
+$label29 :
+test_switch_int == 0
+BZ $label33
+$t81 = const_int_postive
+$t82 = const_int_negtive
+$t83 = $t81 * $t82
+$t84 = test_switch_int - $t83
+$t84 == 0
+BZ $label34
+$label35 :
+test_switch_int <= 0
+BZ $label36
+$t85 = test_switch_int + 1
+$t86 = $t85 * -2
+test_switch_int = $t86
+goto $label35
+$label36 :
+$label34 :
+goto $label28
+$label33 :
+test_switch_int == 1
+BZ $label37
+$t87 = 0 - 233
+test_switch_int = $t87
+goto $label28
+$label37 :
+test_switch_int = 233
+$label28 :
+test_switch_char == 'a'
+BZ $label39
+$t88 = const_char_a
+test_switch_char = $t88
+goto $label38
+$label39 :
+test_switch_char == 'A'
+BZ $label40
+$t89 = const_char_A
+test_switch_char = $t89
+goto $label38
+$label40 :
+test_switch_char == '9'
+BZ $label41
+$t90 = const_char_num
+test_switch_char = $t90
+goto $label38
+$label41 :
+test_switch_char == '_'
+BZ $label42
+$t91 = const_char_underline
+test_switch_char = $t91
+goto $label38
+$label42 :
+test_switch_char == '+'
+BZ $label43
+$t92 = const_char_add
+test_switch_char = $t92
+goto $label38
+$label43 :
+test_switch_char == '*'
+BZ $label44
+$t93 = const_char_mul
+test_switch_char = $t93
+goto $label38
+$label44 :
+test_switch_char = 'w'
+$label38 :
+0 == 0
+BZ $label46
+goto $label45
+$label46 :
+$label45 :
+printf  test_switch_int
+printf  test_switch_char
+$t94 = 0 - 2
+int_global_var = $t94
+char_global_var = 'b'
+ret
+int returnInt()
+ret 10
+ret
+char returnChar()
+ret 'r'
+ret
+int returnIntParameter()
+para int select
+para int int_parameter_1
+para int int_parameter_2
+para int int_parameter_3
+para int int_parameter_4
+var int _tmp
+select == 1
+BZ $label48
+_tmp = int_parameter_1
+goto $label47
+$label48 :
+select == 2
+BZ $label49
+_tmp = int_parameter_2
+goto $label47
+$label49 :
+select == 3
+BZ $label50
+_tmp = int_parameter_3
+goto $label47
+$label50 :
+select == 4
+BZ $label51
+_tmp = int_parameter_4
+goto $label47
+$label51 :
+_tmp = 0
+$label47 :
+ret _tmp
+ret
+char returnCharParameter()
+para int select
+para char char_parameter_1
+para char char_parameter_2
+para char char_parameter_3
+para char char_parameter_4
+select == 1
+BZ $label53
+ret char_parameter_1
+goto $label52
+$label53 :
+select == 2
+BZ $label54
+ret char_parameter_2
+goto $label52
+$label54 :
+select == 3
+BZ $label55
+ret char_parameter_3
+goto $label52
+$label55 :
+select == 4
+BZ $label56
+ret char_parameter_4
+goto $label52
+$label56 :
+ret '0'
+$label52 :
+ret
+void testAssign()
+const int test_assign_10 = 10 
+var int int_test_assign
+array int int_array_test_assign [3]
+var char char_test_assign
+array char char_array_test_assign [3]
+$t95 = 0 - -1
+$t96 = 0 - 2
+call returnChar
+$t97 = ret
+$t98 = const_char_a
+$t99 = $t97 - $t98
+push 2
+push $t95
+push $t96
+push test_assign_10
+push $t99
+call returnIntParameter
+$t100 = ret
+$t101 = const_char_a
+$t102 = 'c' - $t101
+$t103 = $t100 * $t102
+$t104 = $t103 / 2
+$t105 = 10 + $t104
+int_test_assign = $t105
+$t106 = int_test_assign / 4
+$t107 = const_char_a
+$t108 = $t106 + $t107
+$t109 = $t108 - 'a'
+$t110 = $t109 - 2
+$t111 = 0 - -2
+int_array_test_assign[$t110] = $t111
+$t112 = int_array_test_assign[0]
+$t113 = int_test_assign / $t112
+$t114 = -2 + $t113
+call returnInt
+$t115 = ret
+$t116 = $t114 + $t115
+$t117 = $t116 - 11
+call returnInt
+$t118 = ret
+$t119 = 0 - $t118
+call returnChar
+$t120 = ret
+$t121 = const_char_a
+$t122 = $t120 - $t121
+$t123 = test_assign_10 * $t122
+$t124 = 0 - 'b'
+$t125 = $t124 + 'c'
+call returnInt
+$t126 = ret
+push 4
+push $t125
+push $t126
+push test_assign_10
+push 'a'
+call returnIntParameter
+$t127 = ret
+$t128 = $t123 + $t127
+$t129 = $t119 + $t128
+int_array_test_assign[$t117] = $t129
+$t130 = 0 - 255
+$t131 = int_array_test_assign[1]
+$t132 = $t130 + $t131
+$t133 = 'b' * 2
+$t134 = $t132 + $t133
+$t135 = $t134 - 196
+$t136 = 0 - 'b'
+$t137 = $t136 + 'c'
+int_array_test_assign[$t135] = $t137
+call returnChar
+$t138 = ret
+char_test_assign = $t138
+call returnChar
+$t139 = ret
+call returnChar
+$t140 = ret
+$t141 = const_char_a
+push 4
+push 'a'
+push $t139
+push $t140
+push $t141
+call returnCharParameter
+$t142 = ret
+char_array_test_assign[0] = $t142
+$t143 = char_array_test_assign[0]
+char_array_test_assign[1] = $t143
+char_array_test_assign[2] = 'x'
+printf  int_test_assign
+$t144 = int_array_test_assign[0]
+printf  $t144
+$t145 = int_array_test_assign[1]
+printf  $t145
+$t146 = int_array_test_assign[2]
+printf  $t146
+printf  char_test_assign
+$t147 = char_array_test_assign[0]
+printf  $t147
+$t148 = char_array_test_assign[1]
+printf  $t148
+$t149 = char_array_test_assign[2]
+printf  $t149
+$t150 = 0 - 3
+int_global_var = $t150
+char_global_var = 'c'
+ret
+void testInputOutput()
+var int int_test_input
+var char char_test_input
+var int int_global_var
+var char char_global_var
+scanf int_test_input
+scanf char_test_input
+printf " !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~" 
+printf "int_test_input = " int_test_input
+printf "char_test_input = " char_test_input
+$t151 = 0 - 4
+int_global_var = $t151
+char_global_var = 'd'
+ret
+void testTrick()
+ret
+int judge1()
+para int a
+para int b
+para int c
+para int d
+var int ret
+ret = 0
+a < b
+BZ $label57
+c >= d
+BZ $label58
+ret = 1
+$label58 :
+$label57 :
+ret ret
+ret
+int judge2()
+para int a
+para int b
+para int c
+para int d
+var int ret
+ret = 0
+a < b
+BZ $label59
+c <= d
+BZ $label60
+ret = 1
+$label60 :
+$label59 :
+ret ret
+ret
+void Qsort()
+para int low
+para int high
+var int first
+var int last
+var int key
+first = low
+last = high
+$t152 = sort[first]
+key = $t152
+low >= high
+BZ $label61
+ret
+$label61 :
+$label62 :
+first < last
+BZ $label63
+$label64 :
+$t153 = sort[last]
+push first
+push last
+push $t153
+push key
+call judge1
+$t154 = ret
+$t154 == 1
+BZ $label65
+$t155 = last - 1
+last = $t155
+goto $label64
+$label65 :
+$t156 = sort[last]
+sort[first] = $t156
+$label66 :
+$t157 = sort[first]
+push first
+push last
+push $t157
+push key
+call judge2
+$t158 = ret
+$t158 == 1
+BZ $label67
+$t159 = first + 1
+first = $t159
+goto $label66
+$label67 :
+$t160 = sort[first]
+sort[last] = $t160
+goto $label62
+$label63 :
+sort[first] = key
+$t161 = first - 1
+push low
+push $t161
+call Qsort
+$t162 = first + 1
+push $t162
+push high
+call Qsort
+ret
+ret
+void testRecursion()
+var int i
+sort[0] = 5
+sort[1] = 8
+sort[2] = 3
+sort[3] = 6
+sort[4] = 4
+sort[5] = 1
+sort[6] = 2
+sort[7] = 7
+push 0
+push 7
+call Qsort
+i = 0
+$label68 :
+i < 8
+BZ $label69
+$t163 = sort[i]
+printf  $t163
+$t164 = i + 1
+i = $t164
+goto $label68
+$label69 :
+$t165 = 0 - 5
+int_global_var = $t165
+char_global_var = 'e'
+ret
+void testCallFunction()
+var int test_select
+scanf test_select
+test_select == 0
+BZ $label71
+call testIfWhile
+goto $label70
+$label71 :
+test_select == 1
+BZ $label72
+$t166 = const_int_postive
+$t167 = const_char_a
+push $t166
+push $t167
+call testSwitchCase
+$t168 = const_int_negtive
+push $t168
+push '+'
+call testSwitchCase
+push 0
+push '_'
+call testSwitchCase
+push 2
+push '9'
+call testSwitchCase
+goto $label70
+$label72 :
+test_select == 2
+BZ $label73
+call testAssign
+goto $label70
+$label73 :
+test_select == 3
+BZ $label74
+call testInputOutput
+goto $label70
+$label74 :
+test_select == 4
+BZ $label75
+call testRecursion
+goto $label70
+$label75 :
+$label70 :
+$t169 = int_global_var
+printf  $t169
+$t170 = char_global_var
+printf  $t170
+ret
+void main()
+int_global_var = 0
+char_global_var = '_'
+call testCallFunction
+call testTrick
+end

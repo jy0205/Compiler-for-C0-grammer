@@ -1,0 +1,206 @@
+# depslib dependency file v1.0
+1543130459 source:c:\users\jy\desktop\cpp学习\compiler\error.cpp
+	<iostream>
+
+1543592802 source:c:\users\jy\desktop\cpp学习\compiler\grammer.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"wordkind.h"
+	"global.h"
+	"errorInfo.h"
+
+1543063275 c:\users\jy\desktop\cpp学习\compiler\wordkind.h
+
+1543566733 c:\users\jy\desktop\cpp学习\compiler\global.h
+
+1543067439 c:\users\jy\desktop\cpp学习\compiler\errorinfo.h
+
+1543133302 source:c:\users\jy\desktop\cpp学习\compiler\wordanalyze.cpp
+	<stdio.h>
+	<string>
+	<string.h>
+	"global.h"
+	"errorInfo.h"
+
+1543511067 source:c:\users\jy\desktop\cpp学习\compiler\main.cpp
+	<iostream>
+	<stdio.h>
+	<string>
+	"global.h"
+	"errorInfo.h"
+
+1543582978 source:c:\users\jy\desktop\cpp学习\compiler\midcode.cpp
+	<iostream>
+	<string.h>
+	<stdio.h>
+	"global.h"
+	"errorInfo.h"
+
+1543597881 source:c:\users\jy\desktop\cpp学习\compiler\mips_code.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+
+1546177092 source:c:\users\jy\desktop\编译技术课程设计\编译器源代码\compiler\error.cpp
+	<iostream>
+	"global.h"
+
+1546446949 source:c:\users\jy\desktop\编译技术课程设计\编译器源代码\compiler\grammer.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"wordkind.h"
+	"global.h"
+	"errorInfo.h"
+
+1543729148 c:\users\jy\desktop\编译技术课程设计\编译器源代码\compiler\wordkind.h
+
+1546595282 c:\users\jy\desktop\编译技术课程设计\编译器源代码\compiler\global.h
+
+1546172906 c:\users\jy\desktop\编译技术课程设计\编译器源代码\compiler\errorinfo.h
+
+1546595463 source:c:\users\jy\desktop\编译技术课程设计\编译器源代码\compiler\main.cpp
+	<iostream>
+	<stdio.h>
+	<string>
+	"global.h"
+	"errorInfo.h"
+
+1546540949 source:c:\users\jy\desktop\编译技术课程设计\编译器源代码\compiler\midcode.cpp
+	<iostream>
+	<string.h>
+	<stdio.h>
+	"global.h"
+	"errorInfo.h"
+
+1546167665 source:c:\users\jy\desktop\编译技术课程设计\编译器源代码\compiler\wordanalyze.cpp
+	<stdio.h>
+	<string>
+	<string.h>
+	"global.h"
+	"errorInfo.h"
+
+1546187858 source:c:\users\jy\desktop\编译技术课程设计\编译器源代码\compiler\mips_code.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+
+1546602883 source:c:\users\jy\desktop\编译技术课程设计\编译器源代码\compiler\optimizer.cpp
+	<stdio.h>
+	<iostream>
+	<string.h>
+	"global.h"
+
+1546841078 source:c:\users\jy\desktop\编译技术课程设计\编译器源代码\compiler\gennewmips.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+
+1546177092 source:e:\桌面上的文件\编译技术课程设计\编译器源代码\compiler\error.cpp
+	<iostream>
+	"global.h"
+
+1546595282 e:\桌面上的文件\编译技术课程设计\编译器源代码\compiler\global.h
+
+1546841078 source:e:\桌面上的文件\编译技术课程设计\编译器源代码\compiler\gennewmips.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+
+1547222025 source:e:\桌面上的文件\编译技术课程设计\编译器源代码\compiler\grammer.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"wordkind.h"
+	"global.h"
+	"errorInfo.h"
+
+1543729148 e:\桌面上的文件\编译技术课程设计\编译器源代码\compiler\wordkind.h
+
+1546172906 e:\桌面上的文件\编译技术课程设计\编译器源代码\compiler\errorinfo.h
+
+1546595463 source:e:\桌面上的文件\编译技术课程设计\编译器源代码\compiler\main.cpp
+	<iostream>
+	<stdio.h>
+	<string>
+	"global.h"
+	"errorInfo.h"
+
+1546540949 source:e:\桌面上的文件\编译技术课程设计\编译器源代码\compiler\midcode.cpp
+	<iostream>
+	<string.h>
+	<stdio.h>
+	"global.h"
+	"errorInfo.h"
+
+1546187858 source:e:\桌面上的文件\编译技术课程设计\编译器源代码\compiler\mips_code.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+
+1546602883 source:e:\桌面上的文件\编译技术课程设计\编译器源代码\compiler\optimizer.cpp
+	<stdio.h>
+	<iostream>
+	<string.h>
+	"global.h"
+
+1546167665 source:e:\桌面上的文件\编译技术课程设计\编译器源代码\compiler\wordanalyze.cpp
+	<stdio.h>
+	<string>
+	<string.h>
+	"global.h"
+	"errorInfo.h"
+
+1546177092 source:e:\大三\编译技术课程设计\编译器源代码\compiler\error.cpp
+	<iostream>
+	"global.h"
+
+1546595282 e:\大三\编译技术课程设计\编译器源代码\compiler\global.h
+
+1546841078 source:e:\大三\编译技术课程设计\编译器源代码\compiler\gennewmips.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+
+1546595463 source:e:\大三\编译技术课程设计\编译器源代码\compiler\main.cpp
+	<iostream>
+	<stdio.h>
+	<string>
+	"global.h"
+	"errorInfo.h"
+
+1546172906 e:\大三\编译技术课程设计\编译器源代码\compiler\errorinfo.h
+
+1546540949 source:e:\大三\编译技术课程设计\编译器源代码\compiler\midcode.cpp
+	<iostream>
+	<string.h>
+	<stdio.h>
+	"global.h"
+	"errorInfo.h"
+
+1546187858 source:e:\大三\编译技术课程设计\编译器源代码\compiler\mips_code.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+
+1546602883 source:e:\大三\编译技术课程设计\编译器源代码\compiler\optimizer.cpp
+	<stdio.h>
+	<iostream>
+	<string.h>
+	"global.h"
+
+1546167665 source:e:\大三\编译技术课程设计\编译器源代码\compiler\wordanalyze.cpp
+	<stdio.h>
+	<string>
+	<string.h>
+	"global.h"
+	"errorInfo.h"
+

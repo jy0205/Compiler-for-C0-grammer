@@ -1,0 +1,59 @@
+
+#ifndef ERRORINFO_H_INCLUDED
+#define ERRORINFO_H_INCLUDED
+
+#define FILE_ERROR 0
+#define ID_ERROR 1
+#define ID_DECLARE_ERROR 2
+#define SEMICOLON_ERROR 3
+#define NUM_NOT_IN_OP 4   //+-号后面没有数字
+#define CONST_DEFINE_ERROR 5   //赋值号后面不是整数或者字符
+#define ASSIGN_OP_ERROR 6    //赋值号出现错误
+#define NO_TYPE_ERROR 7   //类型错误
+#define RFPAREN_ERROR 8  //]错误
+#define ARRAY_INDEX_NOTNUM 9
+#define LPAREN_ERROR 10   //(错误
+#define RPAREN_ERROR 11    //)错误
+#define LHPAREN_ERROR 12    //{错误
+#define RHPAREN_ERROR 13     //}错误
+#define FUNCTION_NAME_ERROR 14
+#define MAIN_FUNC_NAME_ERROR 15
+#define STATEMENT_ERROR 16
+#define CONDITION_ERROR 17
+#define ASSIGNSTATE_ERROR 18
+#define WRITESTATE_ERROR 19
+#define CASE_KIND_ERROR 20    //case后面不是常量
+#define CASE_ERROR 21   //case关键字错误
+#define COLON_ERROR 22
+#define DEFAULT_ERROR 23
+#define ID_AFTER_OP_ERROR 24
+#define FACTOR_ERROR 25    //项中出现语法中没有规定的语法成分
+#define ILLEGAL_CHAR 26
+#define ZERO_BEFORE_NUM 27
+#define WRONG_CHAR_ERROR 28
+#define WRONG_STRING_ERROR 29
+#define TABLE_OVERFLOW_ERROR 30          //超过符号表的最大限制
+#define SAME_FUNCTION_NAME_ERROR 31     //同名函数定义错误
+#define SAME_IDENTIFIER_NAME_ERROR 32
+#define NO_SUCH_FUNCTION 33
+#define NO_SUCH_IDENTIFIER 34
+#define OVERFLOW_INT 35
+#define DISMATCH_TYPE 36
+#define ARRAY_INDEX_INVALID 37
+#define NO_RETURN_ERROR 38
+#define PARANUM_NOT_MATCH_ERROR 39
+#define EXP_CALL_VOID_FUNCTION 40      //表达式中调用无返回值函数
+#define ARRAY_OVERFLOW 41
+#define IDENTIFY_ISNOT_ARRAY 42
+#define IDENTIFY_ISNOT_FUNCTION 43
+#define ASSIGN_ARRAY_OR_FUNCT 44
+#define ASSIGN_TYPE_NOTMATCH 45
+#define VAR_HAVE_LFPARENSYM 46
+#define READ_NOT_VAR 47
+#define VALUE_PARA_NOT_MATCH 48
+#define CHARTYPE_IN_CONDITION 49
+#define RETURN_TYPE_NOT_MATCH 50
+#define RETURN_ERROE 51
+#define NO_MAIN_FUNCTION 52
+
+#endif // ERRORINFO_H_INCLUDED
